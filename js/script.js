@@ -11,6 +11,17 @@ document.querySelector('#login-btn').onclick = () =>{
 document.querySelector('#close-login-btn').onclick = () =>{
     loginForm.classList.remove('active');
 }
+
+const button = document.getElementById("signin-login-btn");
+const body = document.getElementsByTagName("body")[0];
+
+button.addEventListener("click", function() {
+  document.querySelector('#signin-login-btn').onclick = () =>{
+    loginForm.classList.remove('active');
+  }  // show body when button is clicked
+});
+
+
 window.onscroll = () => {
     searchForm.classList.remove('active');
 
