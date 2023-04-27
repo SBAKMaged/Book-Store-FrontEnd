@@ -608,7 +608,8 @@ section{
     display: none;
 }
 .loader-container img{
-    height: 10rem;
+    height: 30rem;
+    border-radius: 10rem;
 }
 
 

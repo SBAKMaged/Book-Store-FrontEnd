@@ -127,7 +127,8 @@ body{
     display: none;
 }
 .loader-container img{
-    height: 10rem;
+    height: 23rem;
+    border-radius: 10rem;
 }
 
 

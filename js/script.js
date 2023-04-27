@@ -22,6 +22,14 @@ button.addEventListener("click", function() {
 });
 
 
+var signInBtn = document.getElementById("signin-login-btn");
+var mainPage = document.getElementsByTagName("Body");
+
+signInBtn.addEventListener("click", function() {
+  mainPage.style.display = "block";
+});
+
+
 window.onscroll = () => {
     searchForm.classList.remove('active');
 
