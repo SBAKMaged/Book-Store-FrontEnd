@@ -581,6 +581,8 @@ section{
 }
 .footer .share a:hover{
     background: var(--black);
+    transform: rotate(360deg);
+    transition: 1s;
 }
 .footer .credit{
     border-top: var(--border);
