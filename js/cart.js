@@ -1,3 +1,4 @@
+
 function shop(){
     document.querySelector('.loader-container').classList.add('active');
   }
@@ -103,9 +104,17 @@ function reloadCard(){
                 listCard.appendChild(newDiv);
         }
     })
+    
     total.innerText = totalPrice.toLocaleString();
     quantity.innerText = count;
+
+
 }
+
+total.onclick = function() {
+    window.location.href = "Thank-You.html";
+};
+
 function changeQuantity(key, quantity){
     if(quantity == 0){
         delete listCards[key];
